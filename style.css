@@ -79,42 +79,55 @@ padding-bottom: 30px;
     /* margin: 10px; */
 }
 .main{
-    width: 70%;
-    margin: auto;
-padding-top: 10%;
+    width: 100%;
+    /* margin: auto; */
+/* padding-top: 10%; */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 /* display: flex; */
 /* float: left; */
-}
-.main .card1{
-    display: flex;
-    float: right;
-    /* padding: 10px;
-    margin: 20px; */
-}
-.main .card3{
-    display: flex;
-    float: right;
-    margin-top: 0;
-    /* padding: 10px;
-    margin: 20px; */
-}
-.main .card2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20%;
-
 }
 .main-sec{
     width: 60%;
     font-size: 2rem;
 }
 .card {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
+    margin: 10px;
     gap: 30px;
     border-radius: 20px;
     box-shadow: 0.5px 3px 3px 1px rgba(0, 0, 0, 0.1); /* Added a valid box-shadow */
+}
+
+.fullwidth{
+    
+    background-color: #7cbeece5;
+}
+.info{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.section{
+ display: flex;
+
+ flex-direction: row;
+ justify-content: space-around;
+}
+.fullwidth .container{
+    padding: 30px;
+
+}
+.fullwidth .container .logo{
+    padding: 30px;
+ text-align: center;
 }
